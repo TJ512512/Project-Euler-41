@@ -12,8 +12,7 @@ namespace Project_Euler_41
         static void Main(string[] args)
         {
             BigInteger maxNum = 0;
-            Console.Write("What number is it up to: ");
-            maxNum = Convert.ToInt32(Console.ReadLine());
+            maxNum = 100000000;
             List<BigInteger> primes = PrimeList(maxNum); // create a list of prime numbers under the number entered
             //a list is a dynamic data structure
             //it works in a similar way to an array
